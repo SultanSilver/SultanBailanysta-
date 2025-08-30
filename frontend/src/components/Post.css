@@ -1,0 +1,26 @@
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-author {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.post-content {
+  margin: 0 0 12px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.post-date {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+}
