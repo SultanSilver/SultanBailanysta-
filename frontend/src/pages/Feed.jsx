@@ -12,7 +12,7 @@ const Feed = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await fetch('https://sultan-bailanysta-nusg13xet-sultans-projects-f7745089.vercel.app/api/posts');
+      const response = await fetch('https://bailanysta-backend.onrender.com/posts');
       const data = await response.json();
       setPosts(data);
     } catch (error) {
