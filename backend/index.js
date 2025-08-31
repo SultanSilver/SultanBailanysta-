@@ -10,7 +10,8 @@ const port = 3001;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://sultan-bailanysta-nusg13xet-sultans-projects-f7745089.vercel.app'
+    'https://sultan-bailanysta.vercel.app',
+    'https://sultan-bailanysta-*.vercel.app'
   ]
 }));
 app.use(express.json());
